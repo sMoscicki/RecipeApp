@@ -17,6 +17,7 @@
 		044F63A729F52AA100D4094E /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F63A629F52AA100D4094E /* RecipeModel.swift */; };
 		044F63A929F52B4300D4094E /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F63A829F52B4300D4094E /* RecipeListView.swift */; };
 		044F63AB29F52C0700D4094E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F63AA29F52C0700D4094E /* DataService.swift */; };
+		044F63BF29F53C4800D4094E /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F63BE29F53C4800D4094E /* RecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		044F63A629F52AA100D4094E /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		044F63A829F52B4300D4094E /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 		044F63AA29F52C0700D4094E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		044F63BE29F53C4800D4094E /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				04375A2C29F2EA9800D92EC5 /* ContentView.swift */,
 				044F63A829F52B4300D4094E /* RecipeListView.swift */,
+				044F63BE29F53C4800D4094E /* RecipeDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044F63BF29F53C4800D4094E /* RecipeDetailView.swift in Sources */,
 				04375A2D29F2EA9800D92EC5 /* ContentView.swift in Sources */,
 				04375A2B29F2EA9800D92EC5 /* JSON_ParsingApp.swift in Sources */,
 				044F63A929F52B4300D4094E /* RecipeListView.swift in Sources */,
