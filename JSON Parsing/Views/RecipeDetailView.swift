@@ -25,9 +25,9 @@ struct RecipeDetailView: View {
                         .background(Color.gray.opacity(0.40))
                         .cornerRadius(25)
                     
-                    ForEach(recipe.ingredients, id: \.self){ item in
+                    ForEach(recipe.ingredients){ item in
                         
-                        Text("•" + item)
+                        Text("•" + item.name)
                             .padding(.bottom, 1)
                     }
                 }
