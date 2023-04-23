@@ -20,10 +20,7 @@ struct RecipeFeaturedView: View {
                 .padding(.leading)
                 .padding(.top, 40)
                 .font(.largeTitle)
-                
-            
-            
-            
+
             GeometryReader { geo in
                 
                 TabView{
