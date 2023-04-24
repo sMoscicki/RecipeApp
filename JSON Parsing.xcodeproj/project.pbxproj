@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042D2ED929F6E7B700E66A5D /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D2ED829F6E7B700E66A5D /* Rational.swift */; };
 		04375A2B29F2EA9800D92EC5 /* JSON_ParsingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04375A2A29F2EA9800D92EC5 /* JSON_ParsingApp.swift */; };
 		04375A2F29F2EA9A00D92EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04375A2E29F2EA9A00D92EC5 /* Assets.xcassets */; };
 		04375A3229F2EA9A00D92EC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04375A3129F2EA9A00D92EC5 /* Preview Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042D2ED829F6E7B700E66A5D /* Rational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
 		04375A2729F2EA9800D92EC5 /* JSON Parsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON Parsing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04375A2A29F2EA9800D92EC5 /* JSON_ParsingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON_ParsingApp.swift; sourceTree = "<group>"; };
 		04375A2E29F2EA9A00D92EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042D2ED729F6E75400E66A5D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				042D2ED829F6E7B700E66A5D /* Rational.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		04375A1E29F2EA9800D92EC5 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +83,7 @@
 				04375A3929F2EB1300D92EC5 /* Models */,
 				044F63A529F5285500D4094E /* Services */,
 				04375A3B29F2EB2300D92EC5 /* Data */,
+				042D2ED729F6E75400E66A5D /* Utilities */,
 				04375A2E29F2EA9A00D92EC5 /* Assets.xcassets */,
 				04375A3029F2EA9A00D92EC5 /* Preview Content */,
 			);
@@ -205,6 +216,7 @@
 			files = (
 				044F63BF29F53C4800D4094E /* RecipeDetailView.swift in Sources */,
 				04375A2B29F2EA9800D92EC5 /* JSON_ParsingApp.swift in Sources */,
+				042D2ED929F6E7B700E66A5D /* Rational.swift in Sources */,
 				044F63A929F52B4300D4094E /* RecipeListView.swift in Sources */,
 				044F63AB29F52C0700D4094E /* DataService.swift in Sources */,
 				044F63A729F52AA100D4094E /* RecipeModel.swift in Sources */,

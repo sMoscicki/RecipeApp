@@ -13,10 +13,14 @@ struct RecipeDetailView: View {
                 
                 //MARK: Recipe Image
                     Image(recipe.image)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 375, height: 150)
-                        .padding([.leading, .trailing], 10)
+                    .resizable()
+                    .scaledToFill()
+                
+                //MARK: Recipe title
+                Text(recipe.name)
+                    .bold()
+                    .padding(.top, 40)
+                    .font(.largeTitle)
                 
                 //MARK: Serving Size Picker
                 VStack(alignment: .leading){
@@ -43,7 +47,7 @@ struct RecipeDetailView: View {
                     
                     ForEach(recipe.ingredients){ item in
                                         
-                        Text("•" + RecipeModel.getPortion(ingradient: item, recipeServing: recipe.servings, targetSevings: selectedServingSize) + " " + item.name)
+                        Text("•" + RecipeModel.getPortion(ingradient: item, recipeServing: recipe.servings, targetSevings: selectedServingSize) + " " + item.name.lowercased())
                             .padding(.bottom, 1)
                     }
                 }
